@@ -25,10 +25,10 @@ def main():
         max = 0
     else:
         if s % 9 == 0:
-            max = f"{str(9) * int((s / 9))}{str(0) * int((m - (s / 9)))}"
+            max = f"{str(9) * int(s / 9)}{str(0) * int(m - (s / 9))}"
             min = MaxToMin(max)
         else:
-            max = f"{str(9) * int((s / 9))}{s % 9}{str(0) * int(m - (s / 9))}"
+            max = f"{str(9) * int(s / 9)}{s % 9}{str(0) * int(m - (s / 9))}"
             min = MaxToMin(max)
 
     print(min, max)
