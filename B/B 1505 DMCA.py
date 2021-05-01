@@ -7,9 +7,5 @@ def digital_root(n):
     else:
         return digital_root(x)
 
-def main():
-    a = int(input())
-    print(digital_root(a))
-
-if __name__ == '__main__':
-    main()
+a = int(input())
+print(digital_root(a))
