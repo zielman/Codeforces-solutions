@@ -1,26 +1,10 @@
-#https://codeforces.com/problemset/problem/71/A
+# https://codeforces.com/problemset/problem/71/A
 
-words = []
+n = int(input())
+words = [input() for _ in range(n)]
 
-def get_input():
-    words.append(input()) 
-    while len(words) - 1 < int(words[0]):
-        get_input()
-
-def replace(str):
-    return print(f"{str[0]}{len(str)-2}{str[-1]}")
-
-def main():
-    
-    get_input()
-    
-    words.pop(0)
-
-    for word in words:
-        if len(word) > 10:
-            replace(word)
-        else:
-            print(word)
-
-if __name__ == '__main__':
-    main()
+for word in words:
+    if len(word) > 10:
+        print(f"{word[0]}{len(word)-2}{word[-1]}")
+    else:
+        print(word)

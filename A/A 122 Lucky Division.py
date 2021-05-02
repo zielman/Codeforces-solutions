@@ -6,7 +6,6 @@ def if_lucky_number(x):
                 continue
             else:
                 return False
-                break
         return True
 
 def if_almost_lucky_number(x):
