@@ -6,22 +6,17 @@ def isLower(char):
     else:
         return False
 
-def main():
-    word = input()
-    u = 0
-    l = 0
-    for c in word:
-        if isLower(c):
-            l += 1
-        else:
-            u += 1
-
-    if u == len(word): # all upper
-        print(word.lower()) 
-    elif isLower(word[0]) and u + 1 == len(word): # first low & rest upper
-        print(f"{word[0].upper()}{word[1:].lower()}")
+word = input()
+u, l = 0, 0
+for c in word:
+    if isLower(c):
+        l += 1
     else:
-        print(word)
+        u += 1
 
-if __name__ == '__main__':
-    main()
+if u == len(word): # all upper
+    print(word.lower()) 
+elif isLower(word[0]) and u + 1 == len(word): # first low & rest upper
+    print(f"{word[0].upper()}{word[1:].lower()}")
+else:
+    print(word)

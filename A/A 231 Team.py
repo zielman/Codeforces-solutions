@@ -1,26 +1,11 @@
 # https://codeforces.com/problemset/problem/231/A
 
-inp = []
+n = int(input())
+views = [list(map(int, input().split())) for _ in range(n)]
 
-def get_input():
-    inp.append(input())
-    while len(inp) - 1 < int(inp[0]):
-        get_input()
+solutions = 0
+for p in views:
+    if sum(p) >= 2:
+        solutions += 1
 
-def main():
-    
-    get_input()
-    inp.pop(0)
-    
-    solutions = 0
-    
-    for i in inp:
-        a, b, c = map(int, i.split())
-        if a + b + c >= 2:
-            solutions += 1
-    
-    print(int(solutions))
-    
-if __name__ == '__main__':
-    main()
-    
+print(solutions)
