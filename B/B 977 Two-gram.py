@@ -1,4 +1,4 @@
-# https://codeforces.com/contest/977/problem/B
+# https://codeforces.com/problemset/problem/977/B
 
 n = int(input())
 s = input()
