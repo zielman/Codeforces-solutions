@@ -1,7 +1,7 @@
 # https://codeforces.com/problemset/problem/1409/A
 
 t = int(input())
-cases = [[int(i) for i in input().split()] for i in range(t)]
+cases = [list(map(int, input().split())) for _ in range(t)]
 
 for case in cases:
     a, b = case[0], case[1]
