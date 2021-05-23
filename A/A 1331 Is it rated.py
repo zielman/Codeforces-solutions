@@ -1,1 +1,3 @@
+# https://codeforces.com/problemset/problem/1331/A
+
 print('NO')
