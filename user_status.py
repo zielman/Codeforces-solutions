@@ -18,7 +18,7 @@ else:
     # set of solved acms problems
     acms = set([f"{item['problem']['index']}" for item in data if 'problemsetName' in item['problem'].keys() and item['verdict'] == 'OK'])
 
-    # problems per index
+    # solved problems per index
     d = {'acms': len(acms)}
     for item in contest:
         if item[0] not in d:
@@ -27,8 +27,27 @@ else:
             d[item[0]] += 1
     d = dict(sorted(d.items()))
 
+    # tags in solved problems
+    tags = {}
+    for entry in [item['problem']['tags'] for item in data if item['verdict'] == 'OK']:
+        for i in range(len(entry)):
+            if entry[i] not in tags:
+                tags[entry[i]] = 1
+            else:
+                tags[entry[i]] += 1
+    tags = dict(sorted(tags.items(), key=lambda x: x[1], reverse=True))
+
     # output for README.md
-    print(f"Solved per index:")
+    print(f"### Total problems solved: {len(contest)+len(acms)}")
+    print('')
+    print('<ul>')
     for key in d.keys():
-        print(f"{key}: {d[key]}")
-    print(f"Total problems solved: {len(contest)+len(acms)}")
+        print(f"{key}: {d[key]}</br>")
+    print('</ul>')
+    print('')    
+    print(f"### Tags in solved problems:")
+    print('')
+    print('<ul>')
+    for tag in tags.keys():
+        print(f"{tag}: {tags[tag]}</br>")
+    print('</ul>')
