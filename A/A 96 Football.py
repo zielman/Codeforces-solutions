@@ -1,6 +1,6 @@
 # https://codeforces.com/problemset/problem/96/A
 
-def is_dangerous(x) -> bool:
+def is_dangerous(x: str) -> bool:
     d_counter = 0
     for p in range(1, len(x)):
         if int(x[p]) == int(x[int(p)-1]):
@@ -11,10 +11,5 @@ def is_dangerous(x) -> bool:
             d_counter = 0
     else:
         return False
-        
-inp = input()
 
-if is_dangerous(inp):
-    print("YES")
-else:
-    print("NO")
+print('YES' if is_dangerous(input()) else 'NO')

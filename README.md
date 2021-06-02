@@ -1,9 +1,9 @@
 ## Codeforces-solutions by zielman 
 
-### Total problems solved: 163
+### Total problems solved: 167
 
 <ul>
-A: 116</br>
+A: 120</br>
 B: 23</br>
 C: 6</br>
 D: 3</br>
@@ -15,15 +15,15 @@ acms: 13</br>
 ### Tags in solved problems:
 
 <ul>
-implementation: 95</br>
-math: 55</br>
-greedy: 33</br>
-strings: 30</br>
+implementation: 99</br>
+math: 57</br>
+greedy: 34</br>
+strings: 31</br>
 brute force: 28</br>
 sortings: 15</br>
+*special: 12</br>
 number theory: 11</br>
-*special: 11</br>
-constructive algorithms: 9</br>
+constructive algorithms: 10</br>
 dp: 6</br>
 binary search: 3</br>
 bitmasks: 2</br>
