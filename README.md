@@ -1,11 +1,11 @@
 ## Codeforces-solutions by zielman 
 
-### Total problems solved: 167
+### Total problems solved: 172
 
 <ul>
-A: 120</br>
+A: 122</br>
 B: 23</br>
-C: 6</br>
+C: 9</br>
 D: 3</br>
 E: 1</br>
 F: 1</br>
@@ -15,17 +15,17 @@ acms: 13</br>
 ### Tags in solved problems:
 
 <ul>
-implementation: 99</br>
-math: 57</br>
-greedy: 34</br>
-strings: 31</br>
-brute force: 28</br>
+implementation: 100</br>
+math: 59</br>
+greedy: 35</br>
+strings: 32</br>
+brute force: 30</br>
 sortings: 15</br>
 *special: 12</br>
 number theory: 11</br>
 constructive algorithms: 10</br>
 dp: 6</br>
-binary search: 3</br>
+binary search: 4</br>
 bitmasks: 2</br>
 data structures: 2</br>
 two pointers: 1</br>
