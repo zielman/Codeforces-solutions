@@ -1,10 +1,10 @@
 ## Codeforces-solutions by zielman 
 
-### Total problems solved: 188
+### Total problems solved: 195
 
 <ul>
-A: 134</br>
-B: 26</br>
+A: 140</br>
+B: 27</br>
 C: 9</br>
 D: 4</br>
 E: 1</br>
@@ -12,29 +12,29 @@ F: 1</br>
 acms: 13</br>
 </ul>
 
-### Tags in solved problems:
+### Tags in solved problems:    
 
 <ul>
-implementation: 110</br>
-math: 67</br>
-greedy: 39</br>
-brute force: 33</br>
-strings: 32</br>
-sortings: 15</br>
+implementation: 114</br>        
+math: 70</br>
+greedy: 40</br>
+brute force: 35</br>
+strings: 33</br>
+sortings: 17</br>
 number theory: 13</br>
 *special: 12</br>
 constructive algorithms: 11</br>
 dp: 10</br>
 binary search: 4</br>
+geometry: 3</br>
 dfs and similar: 3</br>
 graphs: 2</br>
 shortest paths: 2</br>
-geometry: 2</br>
 bitmasks: 2</br>
 data structures: 2</br>
 games: 1</br>
 two pointers: 1</br>
-expression parsing: 1</br>
+expression parsing: 1</br>      
 probabilities: 1</br>
 hashing: 1</br>
 graph matchings: 1</br>
